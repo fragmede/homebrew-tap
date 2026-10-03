@@ -1,18 +1,25 @@
-# Fragmede Tap
+# Fragmede Homebrew Tap
 
-## How do I install these formulae?
+## LlamaTop
 
-`brew install fragmede/tap/<formula>`
+[LlamaTop](https://github.com/fragmede/llamatop) monitors llama.cpp and Apple
+Silicon CPU, GPU, and unified-memory activity from the terminal.
 
-Or `brew tap fragmede/tap` and then `brew install <formula>`.
+Install it with:
 
-Or, in a `brew bundle` `Brewfile`:
+```bash
+brew install fragmede/tap/llamatop
+```
+
+Or add it to a `Brewfile`:
 
 ```ruby
 tap "fragmede/tap"
-brew "<formula>"
+brew "llamatop"
 ```
 
-## Documentation
+Run it with:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+llamatop
+```
