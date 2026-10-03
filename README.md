@@ -1,0 +1,18 @@
+# Fragmede Tap
+
+## How do I install these formulae?
+
+`brew install fragmede/tap/<formula>`
+
+Or `brew tap fragmede/tap` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "fragmede/tap"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
